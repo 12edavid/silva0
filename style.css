@@ -1,0 +1,106 @@
+body {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ .pinyon-text {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 20px;
+    color:#080707;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    z-index: 10;
+  }
+
+ .pinyon-text1 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 20px;
+    color:#080707;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    z-index: 10;
+  }
+.pinyon-text2 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 20px;
+    color:#080707;
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    z-index: 10;
+  }
+.pinyon-text3 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 16px;
+    color:#fcf7f7;
+    position: absolute;
+    top:720px;
+    left: 85%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    z-index: 10;
+  }
+#display {
+  position: absolute;
+  width: 1280px;
+  height: 768px;
+  left: calc(50% - 640px);
+  top: calc(50% - 374px); 
+}
+
+#display canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #black;
+}
+
+#display #ground {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#display img {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: calc(50% - 640px);
+  top: calc(50% - 374px); 
+  
+}
+
+#display #cats {
+  position: absolute;
+  left: calc(50% - 125px);
+  bottom: 80px;
+  width: 250px;
+  height: 250px;
+}
+
+.message {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  position: absolute;
+  font-size: 50px;
+  left: 0;
+  width: 100%;
+  bottom: 10px;
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
