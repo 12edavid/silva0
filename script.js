@@ -1,3 +1,5 @@
+window.onload = function () {
+
 var c = document.getElementById('sky');
 var context = c.getContext('2d');
 
@@ -78,4 +80,5 @@ function drawStar(x, y, size) {
   context.arc(x, y, size, 0, 2 * Math.PI, false);
   context.fillStyle = 'white';
   context.fill();
-};
+}
+  };
